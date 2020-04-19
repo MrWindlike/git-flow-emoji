@@ -1,0 +1,31 @@
+{
+  "name": "git-flow-emoji",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git cz",
+    "version": "conventional-changelog -i CHANGELOG.md -s -p && git add CHANGELOG.md"
+  },
+  "keywords": [],
+  "author": "MrWindlike@gmail.com",
+  "license": "ISC",
+  "bin": {
+    "git-flow": "./bin/index.js"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-angular": "^8.3.4",
+    "commitizen": "^4.0.4",
+    "conventional-changelog": "^3.1.18",
+    "conventional-changelog-cli": "^2.0.31",
+    "conventional-changelog-emoji": "^0.3.3",
+    "cz-customizable": "^6.2.0",
+    "husky": "^4.2.5"
+  }
+}
