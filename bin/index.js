@@ -13,7 +13,7 @@ switch(command) {
         const packagePath = path.resolve(`${base}/package.json`);
         const package = JSON.parse(fs.readFileSync(packagePath));
         const defaultNpmrc = fs.existsSync(path.resolve(`${base}/.npmrc`)) ? fs.readFileSync(path.resolve(`${base}/.npmrc`)) : '';
-        const npmrc = fs.readFileSync(path.resolve(__dirname, '../.npmrc'));
+        const npmrc = fs.readFileSync(path.resolve(__dirname, '../npmrc'));
         const czConfig = fs.readFileSync(path.resolve(__dirname, '../.cz-config.js'));
         const czrc = fs.readFileSync(path.resolve(__dirname, '../.czrc'));
         const commitlint = fs.readFileSync(path.resolve(__dirname, '../commitlint.config.js'));
