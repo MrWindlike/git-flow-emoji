@@ -7,7 +7,10 @@
     "commit": "git cz",
     "version": "conventional-changelog -i CHANGELOG.md -s -p && git add CHANGELOG.md"
   },
-  "keywords": [],
+  "keywords": [
+    "git",
+    "emoji"
+  ],
   "author": "MrWindlike@gmail.com",
   "license": "ISC",
   "bin": {
@@ -27,5 +30,8 @@
     "conventional-changelog-emoji": "^0.3.3",
     "cz-customizable": "^6.2.0",
     "husky": "^4.2.5"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0"
   }
 }
