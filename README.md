@@ -17,7 +17,7 @@ git add .
 npm run commit
 ```
 
-![commit](./screenshots/commit.png)
+![commit](https://github.com/MrWindlike/git-flow-emoji/blob/master/screenshots/commit.png?raw=true)
 
 #### Release
 ```bash
