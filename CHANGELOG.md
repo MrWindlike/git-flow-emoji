@@ -1,3 +1,9 @@
+## <small>1.0.3 (2020-04-20)</small>
+
+* :bug: fix: fix missing .npmrc file error ([bbd9a5b](https://github.com/MrWindlike/git-flow-emoji/commit/bbd9a5b))
+
+
+
 ## <small>1.0.2 (2020-04-20)</small>
 
 * :bug: fix: fix dependencies error ([73e6eaa](https://github.com/MrWindlike/git-flow-emoji/commit/73e6eaa))
