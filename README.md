@@ -17,6 +17,8 @@ git add .
 npm run commit
 ```
 
+![commit](./screenshots/commit.png)
+
 #### Release
 ```bash
 npm version <version>
@@ -43,7 +45,7 @@ tag-version-prefix="v"
 message=":bookmark: release: release %s"
 ```
 
-👉 More details you can find in this repo: https://github.com/conventional-changelog/conventional-changelog
+More details you can find in this repo: https://github.com/conventional-changelog/conventional-changelog
 
 ### ✨ Recommend
 
@@ -84,7 +86,7 @@ When you develop a new feature of project, you better to commit you messages lik
 You can see the descriptions of types to decide which type to be used.
 
 
-### Others
+### 📝 Others
 If you see some garbled chart instead of emoji when you run `npm run commit`, you could install Windows Terminal in Microsoft store to fix it.
 
 Just enjoy it!
