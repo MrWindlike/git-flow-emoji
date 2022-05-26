@@ -15,8 +15,8 @@
   "author": "MrWindlike@gmail.com",
   "license": "ISC",
   "files": [
-    "./src",
-    "./template/**/*"
+    "src",
+    "template"
   ],
   "bin": {
     "git-flow": "./bin/index.js"
@@ -29,10 +29,10 @@
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
+    "@favoloso/conventional-changelog-emoji": "^0.10.0",
     "commitizen": "^4.0.4",
     "conventional-changelog": "^3.1.18",
     "conventional-changelog-cli": "^2.0.31",
-    "@favoloso/conventional-changelog-emoji": "^0.10.0",
     "cz-customizable": "^6.2.0",
     "husky": "^4.2.5"
   },
