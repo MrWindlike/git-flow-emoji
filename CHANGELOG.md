@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/MrWindlike/git-flow-emoji/compare/v2.0.0...v2.0.1) (2022-05-26)
+
+
+### 🐛 Fixes
+
+* fix: fix the lacking files problem ([8c1731e](https://github.com/MrWindlike/git-flow-emoji/commit/8c1731e))
+
+
 # 2.0.0 (2022-05-26)
 ### ✨ Feature
 
