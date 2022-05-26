@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git cz",
-    "version": "conventional-changelog -i CHANGELOG.md -s -a -p @favoloso/emoji && git add CHANGELOG.md",
+    "version": "conventional-changelog -i CHANGELOG.md -s -p @favoloso/emoji && git add CHANGELOG.md",
     "log": "conventional-changelog -i CHANGELOG.md -p @favoloso/emoji -s -r 0"
   },
   "keywords": [
@@ -14,6 +14,10 @@
   ],
   "author": "MrWindlike@gmail.com",
   "license": "ISC",
+  "files": [
+    "./src",
+    "./template/**/*"
+  ],
   "bin": {
     "git-flow": "./bin/index.js"
   },
