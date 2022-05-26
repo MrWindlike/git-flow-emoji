@@ -64,7 +64,7 @@ function copyConfig({ standard, huskyVersion, isUseChangelog, isUseBump }) {
     ? fs.readFileSync(path.resolve(`${base}/.npmrc`))
     : "";
   const npmrc = fs.readFileSync(
-    path.resolve(__dirname, `../${filePath}/.npmrc`)
+    path.resolve(__dirname, `../${filePath}/npmrc`)
   );
   const czrc = fs.readFileSync(path.resolve(__dirname, `../${filePath}/.czrc`));
   const commitlint = fs.readFileSync(
