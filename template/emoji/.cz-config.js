@@ -10,10 +10,6 @@ module.exports = {
       name: "🐛 A bug fix",
     },
     {
-      value: ":ambulance: hotfix",
-      name: "🚑 Critical hotfix.",
-    },
-    {
       value: ":memo: docs",
       name: "📝 Documentation only changes",
     },
@@ -22,20 +18,32 @@ module.exports = {
       name: "💄 Updating the UI and style files.",
     },
     {
-      value: ":construction: WIP",
-      name: "🚧 Work in progress",
-    },
-    {
-      value: ":bookmark: release",
-      name: "🔖 Releasing / Version tags.",
+      value: ":construction: chore",
+      name: "🚧 Updating grunt tasks etc; no production code change.",
     },
     {
       value: ":hammer: refactor",
       name: "🔨 A code change that neither fixes a bug nor adds a feature",
     },
     {
+      value: ':zap: pref',
+      name: '⚡️ Improving the performance.',
+    },
+    {
+      value: ':test_tube: test',
+      name: '🧪 Adding or changing the tests.',
+    },
+    {
+      value: ':package: build',
+      name: '📦️ Building stuff.',
+    },
+    {
       value: ":rocket: deploy",
       name: "🚀 Deploying stuff.",
+    },
+    {
+      value: ":bookmark: release",
+      name: "🔖 Releasing / Version tags.",
     },
     {
       value: ":tada: init",

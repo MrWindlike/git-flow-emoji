@@ -7,9 +7,11 @@ module.exports = {
       [
         ":sparkles:",
         ":bug:",
-        ":ambulance:",
         ":lipstick:",
         ":construction:",
+        ":package:",
+        ":test_tube:",
+        ":zap:",
         ":memo:",
         ":bookmark:",
         ":hammer:",

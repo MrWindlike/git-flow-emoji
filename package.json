@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "commit": "git cz",
-    "version": "conventional-changelog -i CHANGELOG.md -s -p && git add CHANGELOG.md"
+    "version": "conventional-changelog -i CHANGELOG.md -s -a -p @favoloso/emoji && git add CHANGELOG.md",
+    "log": "conventional-changelog -i CHANGELOG.md -p @favoloso/emoji -s -r 0"
   },
   "keywords": [
     "git",
@@ -22,16 +23,17 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-angular": "^8.3.4",
+    "@commitlint/cli": "^16.0.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "commitizen": "^4.0.4",
     "conventional-changelog": "^3.1.18",
     "conventional-changelog-cli": "^2.0.31",
-    "conventional-changelog-emoji": "^0.3.3",
+    "@favoloso/conventional-changelog-emoji": "^0.10.0",
     "cz-customizable": "^6.2.0",
     "husky": "^4.2.5"
   },
   "dependencies": {
-    "chalk": "^4.0.0"
+    "chalk": "^4.0.0",
+    "inquirer": "^8.2.4"
   }
 }
