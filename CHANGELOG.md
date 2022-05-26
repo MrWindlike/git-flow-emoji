@@ -1,3 +1,11 @@
+## [2.0.3](https://github.com/MrWindlike/git-flow-emoji/compare/v2.0.2...v2.0.3) (2022-05-26)
+
+
+### 🐛 Fixes
+
+* fix: fix the ignoring .npmrc problem ([2ce5b74](https://github.com/MrWindlike/git-flow-emoji/commit/2ce5b74))
+
+
 ## [2.0.2](https://github.com/MrWindlike/git-flow-emoji/compare/v2.0.1...v2.0.2) (2022-05-26)
 
 
